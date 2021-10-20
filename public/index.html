@@ -24,6 +24,20 @@
             console.log('Escuchando', payload);
         });
 
+        socket.on ('emitir-mensaje', function(payload){
+            console.log('Escuchando', payload);
+        });
+
+        socket.on ('nuevo-mensaje', function(payload){
+            console.log('Escuchando NUEVO MENSAJE,,,', payload);
+        });
+
+        socket.on ('active-bands', function(bands){
+            console.clear();
+            console.log('Escuchando active-bands,,,', bands);
+            console.table( bands);
+        });
+
     </script>
 </body>
 </html>

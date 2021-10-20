@@ -5,7 +5,7 @@ require('dotenv').config();
 const app = express();
 //node server
 const server = require ('http').createServer(app);
-const io = require ('socket.io')(server);
+//const io = require ('socket.io')(server);
 module.exports.io = require('socket.io')(server);
 require('./sockets/sockets');
 
