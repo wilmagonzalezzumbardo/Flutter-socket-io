@@ -1,12 +1,13 @@
 const {v4: uuidV4} = require('uuid');
 
-class Band
+class Band 
 {
     constructor(name = 'no-name')
     {
         this.id = uuidV4(); // crea un identificador unico
         this.name = name;
         this.votes = 0;
+
     }
 }
 
