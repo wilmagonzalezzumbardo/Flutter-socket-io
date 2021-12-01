@@ -1,2 +1,3 @@
 node_modules/
 
+DB_CNN = mongodb+srv://chat_user:Aa123456_@cluster0.yusqp.mongodb.net/chat
